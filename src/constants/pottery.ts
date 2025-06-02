@@ -5,7 +5,7 @@ export const pottery: Record<keyof typeof tablet['pottery'], Industry> = {
   1: {
     type: 'pottery',
     era: null,
-    meta: { develop: false },
+    develop: false,
     cost: { coin: 17, coal: 0, iron: 1 },
     resource: { 1: null, 2: null },
     sell: { beer: 1 },
@@ -14,7 +14,7 @@ export const pottery: Record<keyof typeof tablet['pottery'], Industry> = {
   2: {
     type: 'pottery',
     era: null,
-    meta: { develop: true },
+    develop: true,
     cost: { coin: 0, coal: 1, iron: 0 },
     resource: { 1: null, 2: null },
     sell: { beer: 1 },
@@ -23,7 +23,7 @@ export const pottery: Record<keyof typeof tablet['pottery'], Industry> = {
   3: {
     type: 'pottery',
     era: null,
-    meta: { develop: false },
+    develop: false,
     cost: { coin: 22, coal: 2, iron: 0 },
     resource: { 1: null, 2: null },
     sell: { beer: 2 },
@@ -32,7 +32,7 @@ export const pottery: Record<keyof typeof tablet['pottery'], Industry> = {
   4: {
     type: 'pottery',
     era: null,
-    meta: { develop: true },
+    develop: true,
     cost: { coin: 0, coal: 1, iron: 0 },
     resource: { 1: null, 2: null },
     sell: { beer: 1 },
@@ -41,7 +41,7 @@ export const pottery: Record<keyof typeof tablet['pottery'], Industry> = {
   5: {
     type: 'pottery',
     era: 2,
-    meta: { develop: true },
+    develop: true,
     cost: { coin: 24, coal: 2, iron: 0 },
     resource: { 2: null },
     sell: { beer: 2 },

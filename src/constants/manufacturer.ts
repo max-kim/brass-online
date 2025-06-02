@@ -5,7 +5,7 @@ export const manufacturer: Record<keyof typeof tablet['manufacturer'], Industry>
   1: {
     type: 'manufacturer',
     era: 1,
-    meta: { develop: true },
+    develop: true,
     cost: { coin: 8, coal: 1, iron: 0 },
     resource: { 1: null },
     sell: { beer: 1 },
@@ -14,7 +14,7 @@ export const manufacturer: Record<keyof typeof tablet['manufacturer'], Industry>
   2: {
     type: 'manufacturer',
     era: null,
-    meta: { develop: true },
+    develop: true,
     cost: { coin: 10, coal: 0, iron: 1 },
     resource: { 1: null, 2: null },
     sell: { beer: 1 },
@@ -23,7 +23,7 @@ export const manufacturer: Record<keyof typeof tablet['manufacturer'], Industry>
   3: {
     type: 'manufacturer',
     era: null,
-    meta: { develop: true },
+    develop: true,
     cost: { coin: 12, coal: 2, iron: 0 },
     resource: { 1: null, 2: null },
     sell: { beer: 0 },
@@ -32,7 +32,7 @@ export const manufacturer: Record<keyof typeof tablet['manufacturer'], Industry>
   4: {
     type: 'manufacturer',
     era: null,
-    meta: { develop: true },
+    develop: true,
     cost: { coin: 8, coal: 0, iron: 1 },
     resource: { 1: null, 2: null },
     sell: { beer: 1 },
@@ -41,7 +41,7 @@ export const manufacturer: Record<keyof typeof tablet['manufacturer'], Industry>
   5: {
     type: 'manufacturer',
     era: null,
-    meta: { develop: true },
+    develop: true,
     cost: { coin: 16, coal: 1, iron: 0 },
     resource: { 1: null, 2: null },
     sell: { beer: 2 },
@@ -50,7 +50,7 @@ export const manufacturer: Record<keyof typeof tablet['manufacturer'], Industry>
   6: {
     type: 'manufacturer',
     era: null,
-    meta: { develop: true },
+    develop: true,
     cost: { coin: 20, coal: 0, iron: 0 },
     resource: { 1: null, 2: null },
     sell: { beer: 1 },
@@ -59,7 +59,7 @@ export const manufacturer: Record<keyof typeof tablet['manufacturer'], Industry>
   7: {
     type: 'manufacturer',
     era: null,
-    meta: { develop: true },
+    develop: true,
     cost: { coin: 16, coal: 1, iron: 1 },
     resource: { 1: null, 2: null },
     sell: { beer: 0 },
@@ -68,7 +68,7 @@ export const manufacturer: Record<keyof typeof tablet['manufacturer'], Industry>
   8: {
     type: 'manufacturer',
     era: null,
-    meta: { develop: true },
+    develop: true,
     cost: { coin: 20, coal: 0, iron: 2 },
     resource: { 1: null, 2: null },
     sell: { beer: 1 },

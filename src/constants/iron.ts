@@ -5,7 +5,7 @@ export const iron: Record<keyof typeof tablet['iron'], Industry> = {
   1: {
     type: 'iron',
     era: 1,
-    meta: { develop: true },
+    develop: true,
     cost: { coin: 5, coal: 0, iron: 0 },
     resource: {
       1: { coal: 0, iron: 4, beer: 0 },
@@ -16,7 +16,7 @@ export const iron: Record<keyof typeof tablet['iron'], Industry> = {
   2: {
     type: 'iron',
     era: null,
-    meta: { develop: true },
+    develop: true,
     cost: { coin: 7, coal: 0, iron: 0 },
     resource: {
       1: { coal: 0, iron: 4, beer: 0 },
@@ -28,7 +28,7 @@ export const iron: Record<keyof typeof tablet['iron'], Industry> = {
   3: {
     type: 'iron',
     era: null,
-    meta: { develop: true },
+    develop: true,
     cost: { coin: 8, coal: 0, iron: 1 },
     resource: {
       1: { coal: 0, iron: 5, beer: 0 },
@@ -40,7 +40,7 @@ export const iron: Record<keyof typeof tablet['iron'], Industry> = {
   4: {
     type: 'iron',
     era: null,
-    meta: { develop: true },
+    develop: true,
     cost: { coin: 10, coal: 0, iron: 1 },
     resource: {
       1: { coal: 0, iron: 6, beer: 0 },

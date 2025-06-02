@@ -6,7 +6,7 @@ type ResourcesToBuild = Extract<Resources, 'coal' | 'iron' | 'beer'>;
 
 export type Industry = {
   type: Industries;
-  meta: { develop: boolean };
+  develop: boolean;
   cost: { [key in ResourcesToBuy]: number };
   sell: { [key in ResourcesToSell]: number } | null;
   points: { [key in Points]: number };
